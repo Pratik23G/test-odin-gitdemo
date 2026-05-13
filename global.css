@@ -1,0 +1,32 @@
+.titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    40deg,
+    rgb(252, 183, 183),
+    rgb(214, 245, 214),
+    rgb(179, 179, 248)
+  );
+  padding: 20px;
+  border-radius: 15px;
+  gap: 2rem;
+}
+
+.border-1,
+.border-2,
+.border-3,
+.border-4 {
+  gap: 3rem;
+  text-align: center;
+  background-color: rgb(236, 154, 31);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
